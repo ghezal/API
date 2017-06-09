@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    print "desktop.jpg"
+    print "printing desktop.jpg"
     return send_from_directory('../','desktop.jpg')
 
 if __name__ == "__main__":
